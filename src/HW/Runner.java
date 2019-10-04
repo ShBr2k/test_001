@@ -31,11 +31,11 @@ public class Runner {
         //HW04();
 
         //LoopsArray.05
-       // HW05 hw05 = new HW05();
-        //hw05.runHW05();
+        HW05 hw05 = new HW05();
+        hw05.runHW05();
 
         //OOP.01
-        HW01 hw01 = new HW01();
-        hw01.runHW01();
+        //HW01 hw01 = new HW01();
+        //hw01.runHW01();
     }
 }
