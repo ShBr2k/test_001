@@ -1,13 +1,16 @@
 package HW;
 
-//import HW.LoopsArray.HW03;
-//import HW.LoopsArray.HW04;
+import static HW.zTools.Readers.stringReader;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
-import static HW.LoopsArray.HW01.HW01;
-import static HW.LoopsArray.HW02.HW02;
-import static HW.LoopsArray.HW03.HW03;
-import static HW.LoopsArray.HW04.HW04;
-import static HW.LoopsArray.HW05.HW05;
+import static HW.LoopsArray.HW01.*;
+import static HW.LoopsArray.HW02.*;
+import static HW.LoopsArray.HW03.*;
+import static HW.LoopsArray.HW04.*;
+import HW.LoopsArray.HW05;
+import HW.OOP.*;
+
 
 
 public class Runner {
@@ -28,9 +31,11 @@ public class Runner {
         //HW04();
 
         //LoopsArray.05
-        HW05();
+       // HW05 hw05 = new HW05();
+        //hw05.runHW05();
 
-
-
+        //OOP.01
+        HW01 hw01 = new HW01();
+        hw01.runHW01();
     }
 }
